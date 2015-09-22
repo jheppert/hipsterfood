@@ -1,4 +1,4 @@
-var raised = ["Free range", "Organic", "Fair trade", "Cruelty free", "Non GMO", "Sustainable", "Hormone free", "Farm raised", "Grass fed", "Artisinal", "Soy free", "Locally souced", "Cold-pressed"];
+var raised = ["Free range", "Organic", "Fair trade", "Cruelty free", "Non GMO", "Sustainable", "Hormone free", "Farm raised", "Grass fed", "Artisanal", "Soy free", "Locally souced", "Cold-pressed"];
 var dietary = ["gluten free", "vegan", "paleo friendly", "vegetarian", "dairy free", "sugar free", "soy free", "allergen free"];
 var ingredient = ["kale", "quinoa", "açai", "kimchi", "bacon", "agave", "tempeh", "chia", "goji berry", "Greek yogurt"];
 var delivery = ["bowl", "salad", "wrap", "juice", "elixir"];
