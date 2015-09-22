@@ -3,6 +3,7 @@ var dietary = ["gluten free", "vegan", "paleo friendly", "vegetarian", "dairy fr
 var ingredient = ["kale", "quinoa", "açai", "kimchi", "bacon", "agave", "tempeh", "chia", "goji berry", "Greek yogurt"];
 var delivery = ["bowl", "salad", "wrap", "juice", "elixir"];
 
+
 function rollTheDice(option) {
     console.log("inside rollTheDice: " + option);
     var randomSelection = "";
