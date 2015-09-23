@@ -2,7 +2,7 @@ var raised = ["Free range", "Organic", "Fair trade", "Cruelty free", "Non GMO", 
 var dietary = ["gluten free", "vegan", "paleo friendly", "vegetarian", "dairy free", "sugar free", "soy free", "allergen free"];
 var ingredient = ["kale", "quinoa", "açai", "kimchi", "bacon", "agave", "tempeh", "chia", "goji berry", "Greek yogurt"];
 var delivery = ["bowl", "salad", "wrap", "juice", "elixir"];
-var colors = ["#472D38", "#72AD97", "#D6D9BA", "#E6AF83", "#D16C5C"];
+var colors = ["#472D38", "#72AD97", "#D6D9BA", "#E6AF83", "#D16C5C", "#90A878", "#606048", "#483018", "#784830", "#A89048"];
 
 
 function rollTheDice(option) {
