@@ -4,8 +4,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Lato", Helvetica, Arial, sans-serif;
-    background-image: url("../img/city-cars.jpg");
-    background-size: cover;
+    background-color: gray;
+    /*background-image: url("../img/city-cars.jpg");
+    background-size: cover;*/
 }
 
 .recipe_container {
@@ -33,10 +34,12 @@ body {
 }
 
 .generator_button:hover {
-    background-color: #2d2d2d;
-    color: white;
+    background-color: white;
+    color: #2d2d2d;
 }
 
 .generator_button:active {
     background-color: #aaa;
+    border-color: #aaa;
+    color: black;
 }

@@ -2,6 +2,7 @@ var raised = ["Free range", "Organic", "Fair trade", "Cruelty free", "Non GMO", 
 var dietary = ["gluten free", "vegan", "paleo friendly", "vegetarian", "dairy free", "sugar free", "soy free", "allergen free"];
 var ingredient = ["kale", "quinoa", "açai", "kimchi", "bacon", "agave", "tempeh", "chia", "goji berry", "Greek yogurt"];
 var delivery = ["bowl", "salad", "wrap", "juice", "elixir"];
+var colors = ["#472D38", "#72AD97", "#D6D9BA", "#E6AF83", "#D16C5C"];
 
 
 function rollTheDice(option) {
@@ -35,11 +36,20 @@ function rollTheDice(option) {
     
 }
 
+function colorChanger() {
+    var randomColor = Math.floor((Math.random() * colors.length));
+    // $("body").css("backgroundColor", colors[randomColor]);
+    $("body").animate({
+        backgroundColor: colors[randomColor]
+    });
+}
+
 function generateRecipe() {
     var hipsterFood = rollTheDice("raised") + ", ";
         hipsterFood += rollTheDice("dietary") + " ";
         hipsterFood += rollTheDice("ingredient") + " ";
         hipsterFood += rollTheDice("delivery");
+        colorChanger();
         return hipsterFood;
 }
 
